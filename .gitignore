@@ -1,4 +1,5 @@
 # Ignore compiled files with extension `.exe`
 *.exe
 
-./.vscode
+# Ignore all vscode related files and directory.
+**/.vscode
