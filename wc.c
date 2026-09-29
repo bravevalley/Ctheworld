@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/* My minimal implementation of bash util wc, a command line utility
+that counts the number of character, lines and words of a given 
+input string or stream.*/
+
 int main() {
 
     int c, nc, nl, nw, previous, cur;
@@ -8,7 +12,6 @@ int main() {
         ++nc;
         if (c == '\n') ++nl;
 
-        
         if (c == ' ' || c == '\t' || c == '\n' ) {
             
             cur = 1;
