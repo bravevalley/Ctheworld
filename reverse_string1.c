@@ -21,7 +21,7 @@ void reverse(char t[]) {
 }
 
 int main(void) {
-	char t[1000] = "james bamidele";
+	char t[1000] = "JOHN";
 	
 	reverse(t);
 		
